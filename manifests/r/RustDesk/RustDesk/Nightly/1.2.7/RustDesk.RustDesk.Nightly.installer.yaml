@@ -1,0 +1,22 @@
+# Automatically updated by the winget bot at 2024/Jul/19
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+
+PackageIdentifier: RustDesk.RustDesk.Nightly
+PackageVersion: 1.2.7
+InstallerType: portable
+Scope: machine
+InstallerSwitches:
+  Silent: --silent-install
+  SilentWithProgress: --silent-install
+  Interactive: --install
+UpgradeBehavior: install
+ReleaseDate: 2024-07-06
+Installers:
+- Architecture: x86
+  InstallerUrl: https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-1.2.7-x86_64.exe
+  InstallerSha256: 49572D8481521C1AD81916B45ACEAFEB840A0144EDF684ABD94C866DA614A34D
+- Architecture: x64
+  InstallerUrl: https://github.com/rustdesk/rustdesk/releases/download/nightly/rustdesk-1.2.7-x86_64.exe
+  InstallerSha256: 49572D8481521C1AD81916B45ACEAFEB840A0144EDF684ABD94C866DA614A34D
+ManifestType: installer
+ManifestVersion: 1.6.0
